@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Html Tutorial">
+    <meta name="keywords" content="html, css, javascript etc">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+ table {
+    width:100%;
+ }
+
+ table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+ }
+ table tr:nth-child(even) (
+    background-color: #eee;
+ )
+ table tr:nth-child(odd) (
+    background-color: #fff;
+ )
+ th {
+    text-align: center;
+ }
+ th, td {
+    padding: 10px;
+ }
+
+</style>
+<body>
+    <table>
+        <caption>employee data</caption>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>email</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>akachukwu</td>
+            <td>Obialor</td>
+            <td>akachukwuobialor@gmail.com</td>
+            <td>Jos</td>
+        </tr>
+        <tr>
+            <td>George</td>
+            <td>Theophilus</td>
+            <td>Theophilus@gmail.com</td>
+            <td>Lagos</td>
+        </tr>
+    </table>
+    
+    <hr>
+
+    <table>
+        <tr>
+            <th colspan="4">First name</th>
+        </tr>
+    
+        <tr>
+            <td>George</td>
+            <td>Theophilus</td>
+            <td>Theophilus@gmail.com</td>
+            <td>Lagos</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+      <tr>
+         <th>Name:</th>
+         <td>Joel</td>
+      </tr>
+      <tr>
+          <th rowspan="3">Websites:</th>
+          <td>Instagram PixemWeb</td>
+       </tr>
+       <tr>
+         <td>YouTube PixemWeb</td>
+       </tr>
+        <tr>
+         <td>Google PixemWeb</td>
+        </tr>
+    </table>
+</body>
